@@ -1,0 +1,14 @@
+#include <stdio.h>
+float sum(float a,float b)
+{ float sum;
+    return sum=a+b;
+}
+
+int main()
+{
+    float x,y;
+    printf("enter two nos");
+    scanf("%f%f",&x,&y);
+    printf("the sum of two  nos is %3.3f",sum(x,y));
+    return 0;
+}
